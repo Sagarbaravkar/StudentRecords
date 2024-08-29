@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "A+",
+         "marks":"above 90%"
+    },
+    {
+        "id": 2,
+        "name": "A",
+         "marks":"above 80%"
+    },
+    {
+        "id": 3,
+        "name": "B",
+         "marks":"above 75%"
+    },
+    {
+        "id": 4,
+        "name": "C",
+         "marks":"above 60%"
+    },
+    {
+        "id": 5,
+        "name": "Pass",
+         "marks":"35%"
+    },
+    {
+        "id": 1,
+        "name": "Fail",
+         "marks":"below 35%"
+    }
+] 
