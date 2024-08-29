@@ -1,0 +1,17 @@
+// "scripts": {
+//     "start": "nodemon src/server.js --exec babel-node", 
+//     "dev": "cross-env NODE_ENV=dev nodemon src/index.js --exec babel-node", 
+//     "test": "cross-env NODE_ENV=test nodemon src/index.js --exec babel-node", 
+//     "prod": "cross-env NODE_ENV=prod nodemon src/index.js --exec babel-node", 
+//     "dist:start": "node dist/server.js", 
+//     "app:test": "npx jest", 
+//     "build": "babel src -d dist && npm run copy", 
+//     "build:dev": "dotenv -e .env.dev babel src -d dist && npm run copy", 
+//     "test:build": "npx babel _tests/main.js --out-file __tests_/compile.js", 
+//     "migrate": "npx sequelize-cli db:migrate", 
+//     "migrate:single": "npx sequelize-cli db:migrate --name 2024040204-create-dealership-payments.js", 
+//     "down": "npx sequelize-cli db:migrate:undo", 
+//     "seed": "npx sequelize-cli db:seed:all", 
+//     "seed:single": "npx sequelize-cli db:seed --seed 20240429071353-quote-parts.js", 
+//     "copy": "node src/build.js"
+//   },

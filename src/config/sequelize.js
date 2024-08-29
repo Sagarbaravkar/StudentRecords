@@ -1,5 +1,13 @@
 require('dotenv').config();
+// require('dotenv').config({ path: './.env.dev' });
 const Sequelize = require("sequelize");
+console.log("process.env.DB_USERNAME", process.env.DB_USERNAME)
+console.log("process.env.DB_USERNAME", process.env.DB_PASSWORD)
+console.log("process.env.DB_USERNAME", process.env.DB_NAME)
+console.log("process.env.DB_USERNAME", process.env.DB_HOST)
+console.log("process.env.DB_USERNAME", process.env.DB_DIALECT)
+
+
 
 const sequelize = new Sequelize(
   process.env.DB_NAME,
@@ -7,7 +15,8 @@ const sequelize = new Sequelize(
   process.env.DB_PASSWORD,
   {
     host: process.env.DB_HOST,
-    dialect: process.env.DB_DIALECT,
+    // dialect: process.env.DB_DIALECT,
+    dialect: 'postgres',
     connectionLimit: 10,
     logging: false,
   }
